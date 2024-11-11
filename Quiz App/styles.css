@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern, clean font */
+    color: #333; /* Soft text color */
+    background-color: #f9f9f9; /* Light background for a clean look */
+}
+
+/* Landing Page */
+.landing-page {
+    background: white url(./images/computer-program-coding-screen_53876-138060.img) no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.landing-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Subtle dark overlay for better readability */
+}
+
+.landing-page .wrapper {
+    text-align: center;
+    z-index: 1;
+}
+
+.landing-page .vacation-heading {
+    font-size: 5.5rem; /* Larger font for visual hierarchy */
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px; /* Clean and modern spacing */
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+    background-color: #007aff; /* Soft Apple blue */
+    padding: 12px 30px;
+    border-radius: 50px; /* Rounded edges for a modern look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+    transform: scale(1.05); /* Subtle scale effect */
+}
+
+/* Header Section */
+.quiz-header {
+    background: linear-gradient(to right, #007aff, #005bb5); /* Clean gradient */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* Navigation */
+.main-nav {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    position: sticky;
+    top: 0;
+}
+
+.main-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: #007aff;
+    color: white;
+    border-radius: 50px;
+}
+
+/* Quiz Heading */
+.quiz-heading {
+    font-size: 4rem;
+    color: #555;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.quiz-text {
+    font-size: 1.5rem;
+    color: #777;
+    text-align: justify;
+    padding: 0 40px;
+    line-height: 1.6;
+}
+
+/* Performer Section */
+.Performer-quiz-section {
+    text-align: center;
+    padding: 60px 40px; /* Adds some padding for spacing */
+}
+
+.Performer-quiz-section .quiz-heading {
+    font-size: 40px;
+    margin-bottom: 40px; /* Adds space between heading and the cards */
+}
+
+.Performer-quiz-section .image-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates a responsive grid */
+    gap: 20px; /* Adds space between cards */
+    padding: 0 40px;
+    margin-top: 20px;
+}
+
+.image-card img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.image-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Adds shadow effect on hover */
+}
+
+
+/* Notes Section */
+.notes-section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.notes-section .notes-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates a responsive grid */
+    gap: 20px; /* Adds spacing between the cards */
+    justify-items: center; /* Centers the cards within each grid cell */
+    padding: 0 40px; /* Adds padding around the grid */
+}
+
+.notes-section .notes-wrapper {
+    border: 1px solid #ccc;
+    width: 100%; /* Make the cards responsive within the grid */
+    max-width: 300px; /* Limit the width to keep the cards from getting too large */
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for a clean look */
+}
+
+.notes-section .notes-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.notes-section .notes-wrapper img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+/* Quiz Packages Section */
+.quiz-packages-section {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.package-wrapper .package-card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 260px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.package-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.package-card .card-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.package-card .card-text {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.package-card .btn {
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #007aff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.package-card .btn:hover {
+    background-color: #005bb5;
+}
+

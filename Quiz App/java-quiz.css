@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55); /* Darker gradient background */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background: linear-gradient(135deg, #34495e, #2c3e50); /* Gradient for quiz container */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.quiz-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.timer,
+.question-number {
+    color: #f1c40f; /* Gold for timer and question number */
+}
+
+.question {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #ecf0f1;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    background: #ecf0f1; /* Light background for options */
+    color: #2c3e50; /* Dark text */
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 8px 0;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.option:hover {
+    background: #3498db; /* Soft blue highlight on hover */
+    color: #fff; /* White text */
+    transform: translateY(-3px); /* Subtle hover lift */
+}
+
+.next-button {
+    background: linear-gradient(45deg, #ff4757, #ff6b81); /* Gradient button */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.next-button:hover {
+    background: linear-gradient(45deg, #ff6b81, #ff4757); /* Invert gradient on hover */
+    transform: scale(1.05); /* Slight enlargement */
+}
+
