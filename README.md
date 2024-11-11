@@ -27,15 +27,4 @@ Youtube Link: https://youtu.be/uTpTfL9CHck
 - **Backend**: Spring Boot (Java)
 - **Database**: MySQL
 
-## Installation
 
-### Prerequisites
-- [Java JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (version 21 or higher)
-- [MySQL](https://www.mysql.com/downloads/)
-
-### Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/quiz-app.git
-   cd quiz-app
