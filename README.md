@@ -5,6 +5,8 @@ A full-featured quiz application developed with a **Spring Boot** backend and a 
 ## Demo Images + YouTube Link
 
 ![image](https://github.com/user-attachments/assets/83821212-9132-490a-b188-8b8c1b8ebd0e)
+![image](https://github.com/user-attachments/assets/57a4955a-39a1-487d-8486-e7fe94a91cbd)
+![image](https://github.com/user-attachments/assets/f584723e-6921-4284-bfa1-0ef12da35b92)
 ![image](https://github.com/user-attachments/assets/c48616ac-d902-4662-8043-c869e5c6ea17)
 
 Youtube Link: https://youtu.be/uTpTfL9CHck
