@@ -9,7 +9,7 @@ A full-featured quiz application developed with a **Spring Boot** backend and a 
 ![image](https://github.com/user-attachments/assets/f584723e-6921-4284-bfa1-0ef12da35b92)
 ![image](https://github.com/user-attachments/assets/c48616ac-d902-4662-8043-c869e5c6ea17)
 
-Youtube Link: https://youtu.be/uTpTfL9CHck
+Youtube Link: [https://youtu.be/uTpTfL9CHck](https://youtu.be/0f7-ARljLcM)
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
